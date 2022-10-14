@@ -1,0 +1,402 @@
+{
+    "adjusted_merchandize_total_tax": 0,
+    "adjusted_shipping_total_tax": 0,
+    "billing_address": {
+      "address1": "string",
+      "address2": "string",
+      "city": "string",
+      "company_name": "string",
+      "country_code": "CN",
+      "first_name": "string",
+      "full_name": "string",
+      "id": "string",
+      "job_title": "string",
+      "last_name": "string",
+      "phone": "string",
+      "post_box": "string",
+      "postal_code": "string",
+      "salutation": "string",
+      "second_name": "string",
+      "state_code": "string",
+      "suffix": "string",
+      "suite": "string",
+      "title": "string"
+    },
+    "bonus_discount_line_items": [
+      {
+        "bonus_products": [
+          {
+            "link": "string",
+            "product_description": "string",
+            "product_id": "string",
+            "product_name": "string",
+            "title": "string"
+          }
+        ],
+        "coupon_code": "string",
+        "id": "string",
+        "max_bonus_items": 0,
+        "promotion_id": "string"
+      }
+    ],
+    "channel_type": "storefront",
+    "confirmation_status": "not_confirmed",
+    "coupon_items": [
+      {
+        "code": "string",
+        "coupon_item_id": "string",
+        "status_code": "coupon_code_already_in_basket",
+        "valid": true
+      }
+    ],
+    "created_by": "string",
+    "creation_date": "2022-10-13T06:04:10.995Z",
+    "currency": "string",
+    "customer_info": {
+      "c_familyStatus": "string",
+      "customer_id": "string",
+      "customer_name": "string",
+      "customer_no": "string",
+      "email": "string"
+    },
+    "customer_name": "string",
+    "export_status": "not_exported",
+    "external_order_status": "string",
+    "gift_certificate_items": [
+      {
+        "amount": 0,
+        "gift_certificate_item_id": "string",
+        "message": "string",
+        "recipient_email": "string",
+        "recipient_name": "string",
+        "sender_name": "string",
+        "shipment_id": "string"
+      }
+    ],
+    "global_party_id": "string",
+    "guest": true,
+    "last_modified": "2022-10-13T06:04:10.995Z",
+    "merchandize_total_tax": 0,
+    "notes": {
+      "link": "string"
+    },
+    "order_no": "string",
+    "order_price_adjustments": [
+      {
+        "applied_discount": {
+          "amount": 0,
+          "percentage": 0,
+          "price_book_id": "string",
+          "type": "percentage"
+        },
+        "coupon_code": "string",
+        "created_by": "string",
+        "creation_date": "2022-10-13T06:04:10.995Z",
+        "custom": true,
+        "item_text": "string",
+        "last_modified": "2022-10-13T06:04:10.995Z",
+        "manual": true,
+        "price": 0,
+        "price_adjustment_id": "string",
+        "promotion_id": "string",
+        "promotion_link": "string",
+        "reason_code": "BACKORDER"
+      }
+    ],
+    "order_token": "string",
+    "order_total": 0,
+    "payment_instruments": [
+      {
+        "amount": 0,
+        "authorization_status": {
+          "code": "string",
+          "message": "string",
+          "status": 0
+        },
+        "bank_routing_number": "string",
+        "masked_gift_certificate_code": "string",
+        "payment_bank_account": {
+          "drivers_license_last_digits": "string",
+          "drivers_license_state_code": "string",
+          "holder": "string",
+          "masked_drivers_license": "string",
+          "masked_number": "string",
+          "number_last_digits": "string"
+        },
+        "payment_card": {
+          "card_type": "string",
+          "credit_card_expired": true,
+          "credit_card_token": "string",
+          "expiration_month": 0,
+          "expiration_year": 0,
+          "holder": "string",
+          "issue_number": "string",
+          "masked_number": "string",
+          "number_last_digits": "string",
+          "valid_from_month": 0,
+          "valid_from_year": 0
+        },
+        "payment_instrument_id": "string",
+        "payment_method_id": "string"
+      }
+    ],
+    "payment_status": "not_paid",
+    "product_items": [
+      {
+        "adjusted_tax": 0,
+        "base_price": 0,
+        "bonus_discount_line_item_id": "string",
+        "bonus_product_line_item": true,
+        "bundled_product_items": [
+          {}
+        ],
+        "c_fromStoreId": "string",
+        "gift": true,
+        "gift_message": "string",
+        "inventory_id": "string",
+        "item_id": "string",
+        "item_text": "string",
+        "option_items": [
+          {
+            "adjusted_tax": 0,
+            "base_price": 0,
+            "bonus_discount_line_item_id": "string",
+            "bonus_product_line_item": true,
+            "bundled_product_items": [
+              {}
+            ],
+            "gift": true,
+            "gift_message": "string",
+            "inventory_id": "string",
+            "item_id": "string",
+            "item_text": "string",
+            "option_id": "string",
+            "option_items": [
+              {}
+            ],
+            "option_value_id": "string",
+            "price": 0,
+            "price_adjustments": [
+              {
+                "applied_discount": {
+                  "amount": 0,
+                  "percentage": 0,
+                  "price_book_id": "string",
+                  "type": "percentage"
+                },
+                "coupon_code": "string",
+                "created_by": "string",
+                "creation_date": "2022-10-13T06:04:10.995Z",
+                "custom": true,
+                "item_text": "string",
+                "last_modified": "2022-10-13T06:04:10.995Z",
+                "manual": true,
+                "price": 0,
+                "price_adjustment_id": "string",
+                "promotion_id": "string",
+                "promotion_link": "string",
+                "reason_code": "BACKORDER"
+              }
+            ],
+            "price_after_item_discount": 0,
+            "price_after_order_discount": 0,
+            "product_id": "string",
+            "product_list_item": {
+              "id": "string",
+              "priority": 0,
+              "product_details_link": {
+                "link": "string",
+                "product_description": "string",
+                "product_id": "string",
+                "product_name": "string",
+                "title": "string"
+              },
+              "product_list": {
+                "description": "string",
+                "link": "string",
+                "name": "string",
+                "public": true,
+                "title": "string",
+                "type": "wish_list"
+              },
+              "public": true,
+              "purchased_quantity": 0,
+              "quantity": 0,
+              "type": "product"
+            },
+            "product_name": "string",
+            "quantity": 0,
+            "shipment_id": "string",
+            "shipping_item_id": "string",
+            "tax": 0,
+            "tax_basis": 0,
+            "tax_class_id": "string",
+            "tax_rate": 0
+          }
+        ],
+        "price": 0,
+        "price_adjustments": [
+          {
+            "applied_discount": {
+              "amount": 0,
+              "percentage": 0,
+              "price_book_id": "string",
+              "type": "percentage"
+            },
+            "coupon_code": "string",
+            "created_by": "string",
+            "creation_date": "2022-10-13T06:04:10.995Z",
+            "custom": true,
+            "item_text": "string",
+            "last_modified": "2022-10-13T06:04:10.995Z",
+            "manual": true,
+            "price": 0,
+            "price_adjustment_id": "string",
+            "promotion_id": "string",
+            "promotion_link": "string",
+            "reason_code": "BACKORDER"
+          }
+        ],
+        "price_after_item_discount": 0,
+        "price_after_order_discount": 0,
+        "product_id": "string",
+        "product_list_item": {
+          "id": "string",
+          "priority": 0,
+          "product_details_link": {
+            "link": "string",
+            "product_description": "string",
+            "product_id": "string",
+            "product_name": "string",
+            "title": "string"
+          },
+          "product_list": {
+            "description": "string",
+            "link": "string",
+            "name": "string",
+            "public": true,
+            "title": "string",
+            "type": "wish_list"
+          },
+          "public": true,
+          "purchased_quantity": 0,
+          "quantity": 0,
+          "type": "product"
+        },
+        "product_name": "string",
+        "quantity": 0,
+        "shipment_id": "string",
+        "shipping_item_id": "string",
+        "tax": 0,
+        "tax_basis": 0,
+        "tax_class_id": "string",
+        "tax_rate": 0
+      }
+    ],
+    "product_sub_total": 0,
+    "product_total": 0,
+    "shipments": [
+      {
+        "adjusted_merchandize_total_tax": 0,
+        "adjusted_shipping_total_tax": 0,
+        "c_fromStoreId": "string",
+        "c_shipmentType": "string",
+        "c_storePickupMessage": "string",
+        "gift": true,
+        "gift_message": "string",
+        "merchandize_total_tax": 0,
+        "product_sub_total": 0,
+        "product_total": 0,
+        "shipment_id": "string",
+        "shipment_no": "string",
+        "shipment_total": 0,
+        "shipping_address": {
+          "address1": "string",
+          "address2": "string",
+          "city": "string",
+          "company_name": "string",
+          "country_code": "CN",
+          "first_name": "string",
+          "full_name": "string",
+          "id": "string",
+          "job_title": "string",
+          "last_name": "string",
+          "phone": "string",
+          "post_box": "string",
+          "postal_code": "string",
+          "salutation": "string",
+          "second_name": "string",
+          "state_code": "string",
+          "suffix": "string",
+          "suite": "string",
+          "title": "string"
+        },
+        "shipping_method": {
+          "c_storePickupEnabled": true,
+          "description": "string",
+          "external_shipping_method": "string",
+          "id": "string",
+          "name": "string",
+          "price": 0,
+          "shipping_promotions": [
+            {
+              "callout_msg": "string",
+              "link": "string",
+              "promotion_id": "string",
+              "promotion_name": "string"
+            }
+          ]
+        },
+        "shipping_status": "not_shipped",
+        "shipping_total": 0,
+        "shipping_total_tax": 0,
+        "tax_total": 0,
+        "tracking_number": "string"
+      }
+    ],
+    "shipping_items": [
+      {
+        "adjusted_tax": 0,
+        "base_price": 0,
+        "item_id": "string",
+        "item_text": "string",
+        "price": 0,
+        "price_adjustments": [
+          {
+            "applied_discount": {
+              "amount": 0,
+              "percentage": 0,
+              "price_book_id": "string",
+              "type": "percentage"
+            },
+            "coupon_code": "string",
+            "created_by": "string",
+            "creation_date": "2022-10-13T06:04:10.995Z",
+            "custom": true,
+            "item_text": "string",
+            "last_modified": "2022-10-13T06:04:10.995Z",
+            "manual": true,
+            "price": 0,
+            "price_adjustment_id": "string",
+            "promotion_id": "string",
+            "promotion_link": "string",
+            "reason_code": "BACKORDER"
+          }
+        ],
+        "price_after_item_discount": 0,
+        "shipment_id": "string",
+        "tax": 0,
+        "tax_basis": 0,
+        "tax_class_id": "string",
+        "tax_rate": 0
+      }
+    ],
+    "shipping_status": "not_shipped",
+    "shipping_total": 0,
+    "shipping_total_tax": 0,
+    "site_id": "string",
+    "source_code": "string",
+    "status": "created",
+    "tax_total": 0,
+    "taxation": "gross"
+  }
